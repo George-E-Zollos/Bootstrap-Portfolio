@@ -1,0 +1,33 @@
+body {
+    background-image: url("prism.jpg");
+}
+
+.linkParent {
+    vertical-align: middle;
+}
+#widthBoxNav {
+    display:flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 960px;
+  }
+  #navigation {
+    background-color: lightgrey;
+    width: 100%;
+  }
+  #widthBoxArticle {
+    width: 80%;
+    max-width: 960px;
+  }
+  #article {
+    background-color: lightgrey;
+    line-height: 200%;
+    overflow: auto;
+  }
+  #seaty {
+    float: left;
+    margin: 0 1rem 1rem 0;
+  }
+  #copyright {
+    background-color: lightgrey;
+  }
