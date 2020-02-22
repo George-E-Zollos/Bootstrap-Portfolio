@@ -2,25 +2,30 @@ body {
     background-image: url("prism.jpg");
 }
 
+#navbarBacking {
+  width: 100%;
+  background-color: whitesmoke;
+}
 .linkParent {
     vertical-align: middle;
 }
 #widthBoxNav {
     display:flex;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     max-width: 960px;
   }
   #navigation {
-    background-color: lightgrey;
+    background-color: whitesmoke;
     width: 100%;
+    text-align: center;
   }
   #widthBoxArticle {
-    width: 80%;
+    width: 90%;
     max-width: 960px;
   }
   #article {
-    background-color: lightgrey;
+    background-color: white;
     line-height: 200%;
     overflow: auto;
   }
@@ -29,5 +34,15 @@ body {
     margin: 0 1rem 1rem 0;
   }
   #copyright {
-    background-color: lightgrey;
+    background-color: whitesmoke;
+  }
+  .imageBanner {
+    color: white;
+    background-color: teal;
+    bottom: 10%;
+    left:0;
+    right: 0;
+    height: 20%;
+    font-size: larger;
+    vertical-align: middle;
   }
